@@ -33,3 +33,17 @@ SCAFFOLDING   MAIL
     5.1 - stampare "la mail è presente"
 6 - ALTRIMENTI 
     6.1 - stampare "la mail non è presente"
+
+SCAFFOLDING GIOCO DEI DADI
+1 - creare variabile "user_number" che identifica il numero del giocatore
+2 - assegnarle un numero casuale da 1 a 6
+3 - stampare risultato
+4 - creare variabile "computer_number" che identifica il numero del computer
+5 - assegnarle un numero casuale da 1 a 6
+6 - stampare risultato
+7 - SE il numero del giocatore è maggiore del numero del computer
+    7.1 - stampare "la vittoria va al giocatore"
+8 - ALTRIMENTI SE i numeri sono uguali 
+    8.1 - stampare "pareggio"
+9 - ALTRIMENTI 
+    9.1 - stampare "la vittoria va al computer"
