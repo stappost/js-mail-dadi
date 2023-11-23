@@ -23,13 +23,11 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 SCAFFOLDING   MAIL
 1 - permettere all'utente di inserire la sua mail
 2 - creare array con all'interno mail differenti
-3 - creare variabile booleana "flag"
+3 - creare variabile x = 0
 4 - FOR ogni elemento nell'array
     4.1 - SE la mail inserita è uguale all'elemento
-    4.1.1 - impostare la variabile booleana true
-    4.2 - ALTRIMENTI 
-    4.2.1 - impostare la variabile booleana false
-5 - SE flag risulta true
+    4.1.1 - aggiungere 1 a x
+5 - SE x è maggiore di 0
     5.1 - stampare "la mail è presente"
 6 - ALTRIMENTI 
     6.1 - stampare "la mail non è presente"
